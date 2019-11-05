@@ -24,12 +24,13 @@ const ProdutoresSchema = new Mongoose.Schema({
       },
       dados: [
         {
-          identificador: Number,
           temperatura_ambiente: Number,
+          umidade_ambiente: Number,
           temperatura_solo: Number,
           umidade_solo: Number,
           exposicao_solar: Number,
-          dataHoraColeta: { type: Date, default: Date.now }
+          dataHoraColeta: { type: Date, default: Date.now },
+          createdAt: { type: Date, default: Date.now }
         }
       ],
       createdAt: { type: Date, default: Date.now }
