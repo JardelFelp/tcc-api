@@ -14,7 +14,7 @@
     "crypto": "^1.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.16.4",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.5.3",
     "mongoose-paginate": "^5.0.3",
     "mpath": "^0.5.1",
